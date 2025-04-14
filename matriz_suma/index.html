@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Suma de Matrices</title>
+  <link rel="stylesheet" href="style_suma_matriz.css">
+</head>
+<body>
+  <h1>Suma de Dos Matrices</h1>
+
+  <form id="dimensionForm">
+    <label>Filas: <input type="number" id="rows" min="1" required></label>
+    <label>Columnas: <input type="number" id="cols" min="1" required></label>
+    <button type="submit">Crear Matrices</button>
+  </form>
+
+  <div id="matrices"></div>
+  <button id="sumarBtn" style="display:none;">Sumar Matrices</button>
+
+  <h2>Matriz Resultado</h2>
+  <div id="resultado"></div>
+
+  <script src="suma_matriz.js"></script>
+</body>
+</html>
